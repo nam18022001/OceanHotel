@@ -25,7 +25,7 @@
     <meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Aria - Business HTML Landing Page Template</title>
+    <title>Ocean Hotel</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -35,35 +35,43 @@
     <link href="{{asset('page_assets/css/swiper.css')}}" rel="stylesheet">
     <link href="{{asset('page_assets/css/magnific-popup.css')}}" rel="stylesheet">
     <link href="{{asset('page_assets/css/styles.css')}}" rel="stylesheet">
+    {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> --}}
+<style>
+input[type=datetime-local]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=datetime-local]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+</style>
+
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
-
 @include('view_page.load_page')
 @include('view_page.nav_page')
 @include('view_page.head_page')
 @include('view_page.intro_page')
-@include('view_page.cards1_page')
-@include('view_page.cards2_page')
-@include('view_page.tabs_page')
-@include('view_page.slider_page')
-@include('view_page.form1_page')
-@include('view_page.filter_page')
-@include('view_page.project1_page')
-@include('view_page.project2_page')
-@include('view_page.project3_page')
-@include('view_page.project4_page')
-@include('view_page.project5_page')
-@include('view_page.project6_page')
-@include('view_page.project7_page')
-@include('view_page.project8_page')
-@include('view_page.basic_page')
-@include('view_page.counter_page')
-@include('view_page.form2_page')
+{{-- @include('view_page.description_page') --}}
+@include('view_page.services_page')
+@include('view_page.detail1_page')
+{{-- @include('view_page.detail2_page') --}}
+@include('view_page.testimonials_page')
+@include('view_page.callme_page')
+{{-- @yield('callme') --}}
+@include('view_page.project_page')
+@include('view_page.lightbox_page')
+{{-- @include('view_page.team_page') --}}
+@include('view_page.about_page')
+@include('view_page.contact_page')
 @include('view_page.footer_page')
-@include('view_page.cpright_page')
-
-
 
 
     <!-- Scripts -->
@@ -87,6 +95,30 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="{{asset('page_assets/js/scripts.js')}}"></script>
     <!-- Custom scripts -->
+
+    <script>
+        $(document).ready(function(){
+            $('#alertbox').click(function(){
+                $('#myModal').modal("show");
+    });
+  });
+    </script>
+<script>
+    function cut() {
+        document.getElementById("top-mess").classList.add('cut');
+    }
+</script>
+    <script>
+        $basic_url = "http://oceanhotel.com/phong/";
+        $(document).ready(function(){
+            $("#tang").change(function(){
+                var idtang = $(this).val();
+                $.get($basic_url +idtang, function(data){
+                    $("#phong").html(data);
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

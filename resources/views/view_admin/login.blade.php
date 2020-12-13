@@ -208,6 +208,11 @@
 					<span class="fa fa-lock"></span>
 					<input type="password" name="password"  required class="pass-key" placeholder="Nhập mật khẩu">
 					<span class="show"><i class="fas fa-eye"></i></span>
+                </div>
+                <div class="pass">
+					<input type="checkbox" name="remember" id="remember">
+                    <label style="color: #fff" for="remember">Lưu đăng nhập?</label>
+
 				</div>
 				<div class="pass">
 					<a href="#">Quên mật khẩu?</a>

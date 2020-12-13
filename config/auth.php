@@ -46,8 +46,17 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
-    ],
 
+    'loyal_customer' => [
+        'driver' => 'session',
+        'provider' => 'khachhang',
+    ],
+    'loyal_customer-api' => [
+        'driver' => 'token',
+        'provider' => 'khachhang',
+        'hash' => false,
+    ],
+],
     /*
     |--------------------------------------------------------------------------
     | User Providers
@@ -75,6 +84,11 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+
+        'khachhang' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\KhachHang::class,
+        ],
     ],
 
     /*
@@ -98,6 +112,11 @@ return [
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
+        ],
+        'khachhang' => [
+            'provider' => 'khachhang',
+            'table' => 'password_resets',
+            'expire' => 60,
         ],
     ],
 

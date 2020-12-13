@@ -310,7 +310,7 @@ class UserController extends Controller
             ]
         );
 
-        if (Auth::attempt(['email' => $request->username, 'password' => $request->password])) {
+        if (Auth::attempt(['email' => $request->username, 'password' => $request->password], $request->has('remember'))) {
             # code...
             return redirect('quanly');
         }else{

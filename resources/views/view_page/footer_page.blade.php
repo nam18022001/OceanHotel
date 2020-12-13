@@ -4,70 +4,41 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="text-container about">
-                    <h4>Few Words About Aria</h4>
-                    <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
-                </div>
-                <!-- end of text-container -->
-            </div>
-            <!-- end of col -->
+                    <h4>Ocean Hotel</h4>
+                    <p class="white">Cảm ơn quý khách đã tin tưởng sử dụng vụ của chúng tôi. Xin chân thành cảm ơn.</p>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
             <div class="col-md-2">
                 <div class="text-container">
                     <h4>Links</h4>
                     <ul class="list-unstyled li-space-lg white">
                         <li>
-                            <a class="white" href="#your-link">startupguide.com</a>
-                        </li>
-                        <li>
-                            <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                        </li>
-                        <li>
-                            <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                            <a class="white" href="#your-link">oceanhotel.com</a>
                         </li>
                     </ul>
-                </div>
-                <!-- end of text-container -->
-            </div>
-            <!-- end of col -->
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
             <div class="col-md-2">
                 <div class="text-container">
-                    <h4>Tools</h4>
+                    <h4>Facebook</h4>
                     <ul class="list-unstyled li-space-lg">
                         <li>
-                            <a class="white" href="#your-link">businessgrowth.com</a>
-                        </li>
-                        <li>
-                            <a class="white" href="#your-link">influencers.com</a>
-                        </li>
-                        <li class="media">
-                            <a class="white" href="#your-link">optimizer.net</a>
+                            <a class="white" href="#your-link">Oceanhotel KS</a>
                         </li>
                     </ul>
-                </div>
-                <!-- end of text-container -->
-            </div>
-            <!-- end of col -->
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
             <div class="col-md-2">
                 <div class="text-container">
-                    <h4>Partners</h4>
+                    <h4>Email</h4>
                     <ul class="list-unstyled li-space-lg">
                         <li>
-                            <a class="white" href="#your-link">unicorns.com</a>
-                        </li>
-                        <li>
-                            <a class="white" href="#your-link">staffmanager.com</a>
-                        </li>
-                        <li>
-                            <a class="white" href="#your-link">association.gov</a>
+                            <a class="white" href="#your-link">oceanhotel@gmail.com</a>
                         </li>
                     </ul>
-                </div>
-                <!-- end of text-container -->
-            </div>
-            <!-- end of col -->
-        </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of container -->
-</div>
-<!-- end of footer -->
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->
 <!-- end of footer -->

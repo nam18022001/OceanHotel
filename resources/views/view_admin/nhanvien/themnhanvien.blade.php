@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="avatar" class="col-md-3 control-label">Upload avater</label>
+                <label for="avatar" class="col-md-3 control-label">Upload avatar</label>
                 <div class="col-md-9">
                     <input type="file" class="form-control" id="avatar" name="file">
                 </div>
